@@ -1,0 +1,229 @@
+/* Navbar.css */
+
+
+.navbar-container {
+    background-color: #817f7f;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    justify-content: space-between;
+    
+    padding-top: 20px;
+  }
+  
+  .logo-and-btn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-between;
+  }
+
+  .logo {
+    width: 100px;
+    margin: 0;
+  }
+  
+
+  .login-shopping-container {
+    display: flex;
+    right: 0;
+    margin: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+
+  }
+
+  
+  .login-btn {
+    border: transparent;
+    background-color: transparent;
+    margin: 5px;
+    font-size: 12px;
+    cursor: pointer;
+
+  }
+
+  .login-btn i{
+    background-color: transparent;
+    margin: 5px;
+    font-size: 17px;
+    
+  }
+
+  .shopping-cart-btn {
+    background-color: transparent;
+    margin: 5px;
+    font-size: 12px;
+    border: transparent;
+    
+  }
+  
+
+  .cart-counter {
+    
+    
+    font-size: 11px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: hsl(0, 87%, 62%);
+    color: white;
+    padding: 1px 1px;
+    margin-left: 145px;
+    margin-top: -21px;
+    
+  }
+  .shopping-cart-btn i{
+    background-color: transparent;
+    margin: 5px;
+    font-size: 17px;
+   
+
+  }
+  
+  .search-input {
+    margin: 20px;
+    width: 300px;
+    height: 30px;
+    border: transparent;
+    border-radius: 5px;
+    
+  }
+  .menu-search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-left: 170px;
+  }
+  .search-container {
+    margin: 17px;
+  }
+  .search-btn {
+    border-radius: 5px;
+    height: 30px;
+    border: transparent;
+    background-color: transparent;
+  }
+  
+  .navbar-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    
+  }
+  
+  .navbar-container ul li {
+    display: inline; /* Visa länkar i rad */
+    margin: 0px 25px;
+    
+
+  }
+  
+  .navbar-container a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+   
+    
+  }
+
+  
+.dropdown-shopping-cart {
+    position: absolute;
+    margin-left: -300px;
+    background-color: #f9f9f9;
+    min-width: 500px;
+    height: fit-content;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: auto;
+    max-height: 500px;
+}
+.dropdown-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+ 
+}
+
+.dropdown-item-info {
+  display: flex;
+  flex-direction: row;
+  
+  width: 80%;
+  
+}
+.dropdown-item p {
+ font-size: 12px;
+}
+
+
+.remove-from-cart,
+.add-to-cart,
+.delete-product {
+  height: fit-content;
+  border: none;
+  margin-left: 2px;
+  background-color: hsl(0, 87%, 62%);
+  color: white;
+}
+
+
+.Shopping-cart-checkout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  
+}
+
+.Shopping-cart-checkout .checkout-button {
+  background-color: hsl(0, 87%, 62%);
+  color: white ;
+  border-radius: 0;
+}
+
+/* .checkout-button a {
+  color: white;
+} */
+
+.drop-down-test {
+  margin-top: 200px;
+}
+
+.category{
+  position: relative;
+}
+.category-menu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 0px;
+  width: 170px;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+.category-menu li {
+  padding: 5px;
+  text-align: start;
+  font-size: 12px;
+  
+}

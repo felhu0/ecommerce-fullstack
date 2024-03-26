@@ -1,0 +1,73 @@
+.become-member-form {
+    display: flex;
+    justify-content: center;
+}
+
+.become-member-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    border: transparent;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #d1d0d0;
+    border-radius: 5px;
+}
+
+.become-member-text {
+    margin: 10px;
+}
+
+.register-form-group {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.register-form-group input {
+    padding: 10px;
+    width: auto;
+    height: 40px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(184, 182, 182);
+}
+
+
+.register-name {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.register-form-email {
+    
+    width: 100%;
+}
+.register-password {
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+}
+
+.register-confirm-password {
+    width: 100%;
+}
+
+.login-here {
+    
+    font-size: 13px;
+}
+.submit-btn {
+    border: transparent;
+    margin: 20px 0px;
+    padding: 5px 15px;
+    background-color: hsl(0, 87%, 62%);
+    color: white;
+}
+
+.success-message {
+    color: hsl(120, 56%, 33%);
+}
